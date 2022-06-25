@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-image: url(./img/yellow_top_wave_01.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 280px;
+}
+.header .container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.header .container .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .container .logo{
+    padding-left: 20px;
+}
+.header .container .logo .btCrest img{
+    width: 80px;
+}
+.header .container .menuPort{
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    font-family: "Montserrat",Arial,Helvetica,sans-serif"
+}
+.header .container .menuPort .navbar a{
+    text-decoration: none;
+    padding-left: 50px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+    cursor: pointer;
+}
+.header .container .menuPort .navbar a:hover{
+color: #b61984;
+}
+.header .container .topBarInMenu{
+    height: 80px;
+    margin-left: 50px;
+}
+.header .container .topBarInMenu .topBarInMenuCell{
+    line-height: 38px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.header .container .topBarInMenu .topBarInMenuCell .btButtonWidget{
+  background-color: #b61984;
+      cursor: pointer;
+  font-size: 13px;
+  line-height: 30px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  padding: 5px 30px;
+}
+.header .container .topBarInMenu .topBarInMenuCell .btButtonWidget:hover{
+    color: #b61984;
+    background-color: #ffffff;
+    border: 1px solid #b61984;
+}
+.header .container .topBarInMenu .topBarInMenuCell .btButtonWidget a{
+    color: #ffffff;
+}
+.header .container .topBarInMenu .topBarInMenuCell .btButtonWidget i{
+  font-size: 13px;
+  text-decoration: none;
+}
+.header .container .topBarInMenu .topBarInMenuCell .btButtonWidget .num{
+  font-size: 13px;
+  padding-left: 10px;
+}
+.header .container .topBarInMenu .topBarInMenuCell .icon i{
+    margin-left: 13px;
+    font-size: 15px;
+    color: #000000;
+    cursor: pointer;
+}
+.header .container .topBarInMenu .topBarInMenuCell .icon i:hover{
+    color: #b61984;
+}
+.carousel{
+background-image: url(./img/Violet_top_left_wave.png);
+background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 345px;
+    position: relative;
+}
+.carousel .container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.carousel .container .divide{
+    display: flex;
+}
+.carousel .container .col-left{
+    padding-left: 15px;
+    width: 50%;
+}
+.carousel .container .col-left p{
+    color: #b61984;
+}
+.carousel .container .col-left h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.carousel .container .divide img{
+    position: absolute;
+    bottom: 170px;
+}
+.about{
+    background-color: #dcd1f3;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 345px;
+    position: relative;
+}
+.about .container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 30px;
+    text-align: center;
+}
+.about .container .row{
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.about .container .row .col-3{
+    padding: 25px 20px; 
+}
+.about .container .row .col-3 img{
+    width: 100%;
+}
+.about .container .row .col-3 .text{
+    background-color: #ffffff;
+    padding: 20px 20px;
+}
+.about .container .row .col-3 .text p{
+font-size: 13px;
+color: #b61984;
+}
+.about .container .row .col-3 .text h1{
+    font-size: 13px;
+}
